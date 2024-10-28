@@ -47,22 +47,21 @@ Dans le fichier `Detection_anomalie.ipynb`, un modèle CNN est entraîné pour d
 Les résultats de l'entraînement sont visualisés sous forme de courbes et de matrices, permettant une évaluation visuelle des performances du modèle.
 
 - **Courbe d'Entraînement** : Affiche l'évolution de la précision et de la perte au fil des époques.
-from IPython.display import Image, display
-display(Image(filename='results/cout.png', width=600, height=400))
+- 
+<img src="results/cout.png" alt="Log Parsing" width="400"/>
 
 - **Courbe de Validation** : Affiche la précision de détection des anomalies sur l'ensemble de validation.
 
-display(Image(filename='results/Training-validation-score.png', width=600, height=400))
+<img src="results/Training-validation-score.png" alt="Log Parsing" width="400"/>
 
 - **Matrice de Confusion** : Visualise les erreurs de classification du modèle entre les classes normales et anormales.
 
-display(Image(filename='results/confusion_matrix.png', width=600, height=400))
+<img src="results/confusion_matrix.png" alt="Log Parsing" width="400"/>
 
 # ## Conclusion
 Ce projet de détection d'anomalies dans les logs combine structuration des données, extraction des caractéristiques, et apprentissage profond.
 Il s’agit d’une solution complète permettant une surveillance proactive des systèmes et une détection efficace des comportements anormaux.
 
-
-display(Image(filename='results/accuracy.png', width=600, height=400))
+<img src="results/accuracy.png" alt="Log Parsing" width="400"/>
 
 # NP : Les données de ce projet sont extraite de la collection de HDFS de loghub : https://github.com/logpai/loghub/tree/master 
